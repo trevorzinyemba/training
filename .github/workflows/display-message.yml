@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Display Message
-        run: echo "Custom GitHub Workflow: Hello from Display Message!"
+        run: echo "Custom GitHub Workflow Hello from Display Message!"
