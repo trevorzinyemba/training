@@ -1,0 +1,16 @@
+name: Display Message Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  display-message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Display Message
+        run: echo "Custom GitHub Workflow: Hello from Display Message!"
